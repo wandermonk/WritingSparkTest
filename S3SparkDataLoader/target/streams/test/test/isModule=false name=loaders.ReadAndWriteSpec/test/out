@@ -1,0 +1,26 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mReadAndWriteSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- reads a parquet file and creates a dataframe *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  com.amazonaws.SdkClientException: Unable to execute HTTP request: Read timed out[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.amazonaws.http.AmazonHttpClient$RequestExecutor.handleRetryableException(AmazonHttpClient.java:1114)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeHelper(AmazonHttpClient.java:1064)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.amazonaws.http.AmazonHttpClient$RequestExecutor.doExecute(AmazonHttpClient.java:743)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeWithTimer(AmazonHttpClient.java:717)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.amazonaws.http.AmazonHttpClient$RequestExecutor.execute(AmazonHttpClient.java:699)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.amazonaws.http.AmazonHttpClient$RequestExecutor.access$500(AmazonHttpClient.java:667)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.amazonaws.http.AmazonHttpClient$RequestExecutionBuilderImpl.execute(AmazonHttpClient.java:649)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:513)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:4247)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:4194)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Cause: java.net.SocketTimeoutException: Read timed out[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.net.SocketInputStream.socketRead0(Native Method)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.net.SocketInputStream.read(SocketInputStream.java:171)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.net.SocketInputStream.read(SocketInputStream.java:141)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.http.impl.conn.LoggingInputStream.read(LoggingInputStream.java:87)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:139)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:155)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:284)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m

@@ -1,0 +1,10 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mReadAndWriteTestSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- creating data frame from parquet file[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Reading files of different format using readParquetFile should throw an exception[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- creating data frame from text file[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- counts should match with number of records in a text file[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- data should match with sample records in a text file[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Write a data frame as csv file[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Reading files of different format using readTextfileToDataSet should throw an exception[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Reading an invalid file location using readTextfileToDataSet should throw an exception[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Reading an invalid file location using readParquetFile should throw an exception[0m[0m

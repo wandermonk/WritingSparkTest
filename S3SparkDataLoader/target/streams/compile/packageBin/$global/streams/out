@@ -1,0 +1,29 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /Users/phyadavi/Downloads/S3SparkDataLoader/target/scala-2.12/s3sparkdataloader_2.12-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	loaders[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/phyadavi/Downloads/S3SparkDataLoader/target/scala-2.12/classes/loaders[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Util$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/phyadavi/Downloads/S3SparkDataLoader/target/scala-2.12/classes/Util$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	loaders/MainClass$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/phyadavi/Downloads/S3SparkDataLoader/target/scala-2.12/classes/loaders/MainClass$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	loaders/DataLoader.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/phyadavi/Downloads/S3SparkDataLoader/target/scala-2.12/classes/loaders/DataLoader.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	loaders/RandomAlphaNumericStringGenerator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/phyadavi/Downloads/S3SparkDataLoader/target/scala-2.12/classes/loaders/RandomAlphaNumericStringGenerator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	loaders/MainClass.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/phyadavi/Downloads/S3SparkDataLoader/target/scala-2.12/classes/loaders/MainClass.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	loaders/RandomAlphaNumericStringGenerator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/phyadavi/Downloads/S3SparkDataLoader/target/scala-2.12/classes/loaders/RandomAlphaNumericStringGenerator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Util.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/phyadavi/Downloads/S3SparkDataLoader/target/scala-2.12/classes/Util.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	loaders/ReadAndWrite$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/phyadavi/Downloads/S3SparkDataLoader/target/scala-2.12/classes/loaders/ReadAndWrite$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	loaders/ReadAndWrite.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/phyadavi/Downloads/S3SparkDataLoader/target/scala-2.12/classes/loaders/ReadAndWrite.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	loaders/DataLoader$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/phyadavi/Downloads/S3SparkDataLoader/target/scala-2.12/classes/loaders/DataLoader$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	loaders/Util2$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/phyadavi/Downloads/S3SparkDataLoader/target/scala-2.12/classes/loaders/Util2$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	loaders/Util2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/phyadavi/Downloads/S3SparkDataLoader/target/scala-2.12/classes/loaders/Util2.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
